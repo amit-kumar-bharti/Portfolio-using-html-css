@@ -1,4 +1,3 @@
-# Portfolio-using-html-css
 <h1 align="center">Hi 👋, I'm amit kumar bharti</h1>
 <h3 align="center">A passionate Full-stack-java-developer from India</h3>
 
@@ -16,7 +15,7 @@
 <p align="left">
 <a href="https://fb.com/amit kumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="amit kumar" height="30" width="40" /></a>
 <a href="https://instagram.com/amit-gii" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="amit-gii" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/amit unfiltered" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="amit unfiltered" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/unscripted amit vlog wala" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="unscripted amit vlog wala" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
