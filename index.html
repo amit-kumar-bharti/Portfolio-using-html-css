@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add AOS library for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo" data-aos="fade-right">Amit Kumar</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">
+                <span class="nav-icon">🏠</span>
+                Home
+                <span class="nav-indicator"></span>
+            </a></li>
+            <li><a href="#about" class="nav-link">
+                <span class="nav-icon">👨‍💻</span>
+                About
+            </a></li>
+            <li><a href="#projects" class="nav-link">
+                <span class="nav-icon">🚀</span>
+                Projects
+            </a></li>
+            <li><a href="#ai-section" class="nav-link">
+                <span class="nav-icon">🤖</span>
+                AI Projects
+            </a></li>
+            <li><a href="#contact" class="nav-link">
+                <span class="nav-icon">📬</span>
+                Contact
+            </a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <div class="hero-badge">👋 Welcome to my portfolio</div>
+            <h1 class="hero-title">
+                <span class="highlight">Creative</span> Developer
+                <br>& <span class="highlight">AI</span> Enthusiast
+            </h1>
+            <p class="typing-animation">Building digital experiences with code and intelligence</p>
+            
+            <div class="hero-stats">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#projects" class="cta-primary">View My Work</a>
+                <a href="#contact" class="cta-secondary">Let's Connect</a>
+            </div>
+
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <span class="scroll-text">Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/b3.jpeg" alt="Your Name">
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm Amit Kumar</h3>
+                    <p class="bio">A passionate developer with expertise in web development and AI technologies. With 2 years of experience, I specialize in creating innovative solutions that combine cutting-edge technology with user-centered design.</p>
+                    
+                    <div class="skills">
+                        <h4>Technical Skills</h4>
+                        <div class="skill-tags">
+                            <span>JavaScript |</span>
+                            <span>Python |</span>
+                            <span>React |</span>
+                            <span>Node.js |</span>
+                            <span>Machine Learning |</span>
+                            <span>AI Development </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/13640.png" alt="Project 1" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Name 1</h3>
+                        <p>Description of your amazing project. Explain the technology stack and your role.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-section" class="ai-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">AI Projects & Research</h2>
+            <div class="ai-projects">
+                <div class="ai-project-card" data-aos="fade-right">
+                    <h3>AI-Powered Image Recognition System</h3>
+                    <p>Developed a computer vision system that can identify and classify objects in real-time using deep learning. Achieved 95% accuracy on test datasets.</p>
+                    <div class="tech-stack">
+                        <span>TensorFlow</span>
+                        <span>OpenCV</span>
+                        <span>Computer Vision</span>
+                        <span>CNN</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">95%</span>
+                            <span class="metric-label">Accuracy</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">50ms</span>
+                            <span class="metric-label">Response Time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-project-card" data-aos="fade-up">
+                    <h3>Natural Language Processing Chatbot</h3>
+                    <p>Created an intelligent chatbot using transformer architecture for customer service automation. Handles multiple languages and context-aware responses.</p>
+                    <div class="tech-stack">
+                        <span>PyTorch</span>
+                        <span>BERT</span>
+                        <span>NLP</span>
+                        <span>FastAPI</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">89%</span>
+                            <span class="metric-label">User Satisfaction</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">5+</span>
+                            <span class="metric-label">Languages</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-project-card" data-aos="fade-left">
+                    <h3>Predictive Analytics Dashboard</h3>
+                    <p>Built a machine learning system for business forecasting and anomaly detection. Features interactive visualizations and real-time updates.</p>
+                    <div class="tech-stack">
+                        <span>Scikit-learn</span>
+                        <span>Prophet</span>
+                        <span>D3.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">92%</span>
+                            <span class="metric-label">Prediction Accuracy</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">10TB+</span>
+                            <span class="metric-label">Data Processed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+1234567890" class="phone-link">
+                            <span class="phone-number">+1 (234) 567-890</span>
+                            <span class="phone-tooltip">Click to call</span>
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:your.email@example.com">your.email@example.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone (Optional)" pattern="[0-9]{10,}" title="Please enter a valid phone number">
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
